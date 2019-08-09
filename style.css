@@ -1,0 +1,482 @@
+*{ box-sizing: border-box; }
+       
+       html, body {
+         font-family: verdana, arial, sans-serif;
+         font-size: 1em;
+       }
+
+        
+       body {
+         background: #F5F5F5; 
+         display: flex;
+         flex-flow: row nowrap; 
+       }
+
+       h3, h4 {
+         text-align: center;
+       }
+
+       aside {
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: center;
+         background: black;
+         color: white;
+         height: 300em;
+       }
+
+       .form-inline {
+         height: 60px;
+         width: 15.625em;
+         background: white;
+       }
+
+       .navbar form {
+         display: flex;
+         flex-flow: row nowrap;
+         justify-content: center;
+         width: 15.625em;
+         background: black;
+       }
+
+       .navbar .form-control {
+         width: 9.375em;
+       }
+
+       .btn {
+         background: black;
+       }
+
+       .fa-search {
+         content: "\f002";
+         font-family: "Font Awesome 5 Free"; 
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         color: white;
+       }
+
+       .navbar-toggler {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         background: lightgrey;
+         height: 64%;
+       }
+
+       .navbar-toggler:focus, .navbar-toggler:active {
+         outline: none;
+         box-shadow: none;         
+       }
+
+       .navbar-toggler:active {
+         background: grey;
+       }
+
+       p {
+         text-align: center;  
+         padding: 1.25em;
+       }
+
+       .logo1 {
+         width: 9.375em;
+         padding-top: 9.375em;
+       }
+        
+       #navbar1 {
+         background: white;
+         padding: 10px;  
+       }
+    
+       .navbar-my ul li a{
+         color: #fff;
+       }
+
+       .navbar-my ul li a:hover{
+         background: #333;
+       }
+
+       .navbar-my {
+         color: #fff;
+       }
+               
+
+       main {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         heigth: 300em;
+       }
+        
+       article {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         height: 82%;
+         padding: 1em;
+       }
+
+       inside {
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         margin: auto;
+         padding: 2em;         
+       }
+
+       .b1 {
+         height: auto;
+         background-color: white;
+       }
+
+       .b2 {
+         height: auto;
+         background-color: white;
+       }
+
+       .b3 {
+         height: auto;
+         background-color: white;
+       }
+
+       .b4 {
+         height: auto;
+       }
+
+       .b5 {
+         height: auto;
+         background-color: white;
+       }
+
+        
+       .text-style {
+         color: #C0C0C0;
+         font-style: italic;
+       }
+
+       .leftfoto {
+         width: 45%;
+         height: 45%;
+         float: right;
+         padding: 0.625em;
+       }
+
+       .continue {
+         font-style: bold;
+         align-self: flex-end;
+       }
+
+
+       a {
+         color: black;
+         text-decoration: none; 
+       }
+
+       a:hover {
+         color: #D3D3D3;
+         text-decoration: none;
+       }
+
+        
+       .block1 {
+         display: flex;
+         flex-flow: column nowrap;
+         justify-content: space-between;
+       }
+
+       .block2 {
+         display: flex;
+         flex-flow: column nowrap;
+         justify-content: space-between;          
+       }
+
+       .gallery {
+         display: flex;
+         flex-flow: column nowrap;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+         padding: 1.5em;         
+       }
+
+       .g1 {
+         flex-flow: row nowrap; 
+         padding-left: 2em;   
+       }
+
+       .g2 {
+         flex-flow: row nowrap;   
+         padding-top: 5px;
+         padding-left: 2em;        
+       }
+
+
+       .i1, .i3, .i5, .i6 {
+         width: 24%;
+         height: 24%;
+       }
+
+       .i2, .i4 {
+         width: 48%; 
+         height: 24%;                    
+       }
+
+
+       .fa-long-arrow-alt-right {
+         content: "\f30b";
+         font-family: "Font Awesome 5 Free";
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-left: 10px;
+       }
+
+       .fa-font {
+         content: "\f031";
+         font-family: "Font Awesome 5 Free";
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-right: 10px;
+       }
+
+       .fa-heart {
+         content: "\f004";
+         font-family: "Font Awesome 5 Free"; 
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-right: 10px;
+       }
+
+       .fa-image {
+         content: "\f03e";
+         font-family: "Font Awesome 5 Free";      
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-right: 10px;
+       }
+
+       .fa-mobile-alt {
+         content: "\f3cd";
+         font-family: "Font Awesome 5 Free";         
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-right: 10px;
+       }
+
+       .line {
+         display: flex;
+         flex-flow: row nowrap;
+         justify-content: flex-start;
+         padding: 1em;
+       }
+
+       .line div{
+         font-size: 0.75em;
+         padding-right: 1.25em;
+       }
+
+       .fa-clock {
+         content: "\f017";
+         font-family: "Font Awesome 5 Free";       
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-right: 5px;
+       }
+
+       .fa-folder-open {
+         content: "\f07c";
+         font-family: "Font Awesome 5 Free";         
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-right: 5px;
+       }
+
+       .fa-comments {
+         content: "\f086";
+         font-family: "Font Awesome 5 Free";         
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-right: 5px;
+       }
+
+       .fa-eye {
+         content: "\f06e";
+         font-family: "Font Awesome 5 Free";        
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-right: 5px;
+       }
+
+       footer {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         width: 100%;
+         height: 18%;
+         background: black;
+         color: #C0C0C0;
+       }
+
+       .works{
+         display: flex;
+         flex-flow: column nowrap;
+         justify-content: flex-start;
+         align-items: flex-start;        
+         width: 35%;
+         padding: 0.625em;
+         padding-top: 2em;
+       }
+
+       .categories {
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         padding: 0.625em;
+         padding-top: 2em;
+         width: 25%;
+       }
+
+       .facebook{
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         padding: 0.625em;
+         padding-top: 2em;
+         width: 35%;
+       }
+
+       .fb-post {
+         padding-top: 0.625em;
+       }
+
+       .block3 {
+         display: flex;
+         flex-flow: column nowrap;
+         justify-content: space-between;
+       }
+
+       .video {
+         align-self: center;
+         padding: 1.25em;
+       }
+
+       .readmore {
+         background: grey;
+         text-align: center;
+         font-style: bold;
+         color: white;
+         width: 100%;
+         height: 1.875em;
+       }
+
+       .fa-chevron-right {
+         content: "\f054";
+         font-family: "Font Awesome 5 Free";         
+         font-weight: 900;
+         text-rendering: auto;
+         -webkit-font-smoothing: antialiased;
+         padding-left: 5px;
+       }
+
+       .block4 {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         width: 100%;
+       }
+
+       .portfolio {
+         display: flex;
+         flex-flow: row nowrap;
+         justify-content: space-between;
+         width: 100%;
+       }
+
+       .vpeople, .bpeople, .urban {
+         display: flex;
+         flex-flow: column nowrap;
+         align-items: center;
+         background: white;
+         width: 30%;
+         padding: 0.625em;
+       }
+
+       .i10, .i20, .i30 {
+         width: 90%;
+         padding: 0.625em;
+       }
+
+       .block5 {
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: space-between;
+       }
+
+       .block5 div {
+         width: 47%;
+         padding: 0.625em;
+       }
+
+       .block6 {
+         display: flex;
+         flex-flow: row nowrap;
+         color: white;
+         justify-content: space-between;
+       }
+
+       .fv {
+         display: flex;
+         flex-flow: row nowrap;
+       }
+
+       .i70, .i80, .i40 {
+         width: 35%;
+         padding: 0.625em;
+       }
+
+       .Baltimore {
+         display: flex;
+         flex-flow: row nowrap;
+         align-items: center;
+       }
+
+       .Back {
+         display: flex;
+         flex-flow: row nowrap;
+         justify-content: flex-start;
+         align-items: center;
+       }
+
+       .APD {
+         display: flex;
+         flex-flow: row nowrap;
+         justify-content: flex-start;
+         align-items: center;
+       }
+
+       .logo2 {
+         width: 6.25em;
+         align-self: center;
+         margin: 2em;
+       }
+
+       .text-color {
+         color: grey;
+       }
+
+       @media (min-width: 768px) {
+         .navbar-container {
+          top: 0;
+          overflow-y: auto;
+         }
+       }
