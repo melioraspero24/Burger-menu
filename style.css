@@ -28,7 +28,7 @@
          align-items: center;
          background: black;
          color: white;
-         height: 320em;
+         height: 330em;
        }
 
        .form-inline {
@@ -676,7 +676,7 @@
          .fb-post, .fb_iframe_widget, .fb_iframe_widget_fluid {
            align-items: center;
            padding: 1em;
-           width: 100vw;          
+           max-width: 90vw;          
          }
 
 
