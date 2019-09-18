@@ -670,13 +670,16 @@
 
          .facebook {
            align-items: center;
-           max-width: 100vw;            
+           max-width: 100vw;
          }
-         
-         .fb-post, .fb_iframe_widget, .fb_iframe_widget_fluid {
-           align-items: center;
-           padding: 1em;
-           max-width: 90vw;          
+
+         .fb-post [style] {
+           width: 80%;         
+         }
+
+           
+         .fb-post {
+           margin-bottom: 2em;
          }
 
 
