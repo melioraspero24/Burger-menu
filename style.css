@@ -17,10 +17,6 @@
          text-align: center;
        }
 
-	.main-container {
-         display: flex;
-       }
-
        aside {
          display: flex;
          flex-direction: column;
@@ -101,20 +97,7 @@
        #navbar1 {
          background: white;
          padding: 0.625em;  
-       }
-    
-       .navbar-my ul li a{
-         color: #fff;
-       }
-
-       .navbar-my ul li a:hover{
-         background: #333;
-       }
-
-       .navbar-my {
-         color: #fff;
-       }
-               
+       }  
 
        main {
          display: flex;
@@ -143,25 +126,9 @@
          background-color: white;
        }
 
-       .b2 {
-         height: auto;
-         background-color: white;
-       }
-
-       .b3 {
-         height: auto;
-         background-color: white;
-       }
-
        .b4 {
          height: auto;
        }
-
-       .b5 {
-         height: auto;
-         background-color: white;
-       }
-
         
        .text-style {
          color: #C0C0C0;
