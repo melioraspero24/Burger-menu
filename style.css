@@ -220,12 +220,10 @@
 
        .i1, .i3, .i5, .i6 {
          width: 24%;
-         height: 24%;
        }
 
        .i2, .i4 {
-         width: 48%; 
-         height: 24%;                    
+         width: 48%;                    
        }
 
 
